@@ -1,9 +1,9 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from "react";
 
-import feed1 from '../../assets/feed1.png';
-import feed2 from '../../assets/feed2.png';
-import caneca from '../../assets/caneca2.png';
+import feed1 from '../assets/feed1.png';
+import feed2 from '../assets/feed2.png';
+import caneca from '../assets/caneca2.png';
 
 
 

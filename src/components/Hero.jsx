@@ -1,4 +1,4 @@
-import logo from '../../assets/logoCafe.png'
+import logo from '../assets/logoCafe.png'
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react';
 
