@@ -1,8 +1,8 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef } from "react";
-import aliança from '../../public/alianças.png';
-import eventos from '../../public/eventos.png';
-import sociais from '../../public/sociais.png';
+import aliança from '../../assets/alianças.png';
+import eventos from '../../assets/eventos.png';
+import sociais from '../../assets/sociais.png';
 
 
 const Services = () => {
