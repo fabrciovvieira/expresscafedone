@@ -26,7 +26,7 @@ const Hero = () => {
         visible: { opacity: 1, x: 0, scale: 1 }
     };
   return (
-    <div className="w-screen h-full  bg-bgHero bg-cover bg-no-repeat phone:bg-bgHeroMobile phone:bg-contain">
+    <div className="w-screen h-full  bg-cover bg-no-repeat phone:bg-contain hero">
         <img src={logo} alt="logo" className='w-[250px] h-auto m-auto pt-10'/>
 
         <div className='w-[100%] pl-36 phone:pl-0 phone:flex phone:flex-col phone:justify-center phone:items-center'>

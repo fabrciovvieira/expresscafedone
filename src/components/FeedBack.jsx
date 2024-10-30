@@ -20,7 +20,7 @@ const FeedBack = () => {
   return (
     <div 
       ref={ref}
-      className="w-full h-screen phone:h-full bg-lastBg bg-cover phone:bg-contain bg-no-repeat phone:flex-col"
+      className="w-full h-screen phone:h-full bg-lastBg bg-cover phone:bg-contain bg-no-repeat phone:flex-col feedback"
     >
       <div className="phone:h-auto bg-lastBg bg-cover bg-no-repeat">
         <h1 className="font-Cormorant pt-32 text-6xl italic text-center text-fontColours phone:text-5xl phone:font-bold">

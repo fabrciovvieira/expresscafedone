@@ -7,3 +7,29 @@
 body {
     background-color: #FFF2E4;
 }
+
+.hero {
+    background-image: url('./assets/bgHero.png');
+}
+
+.menu {
+    background-image: url('./assets/menuBg.png');
+}
+
+.feedback {
+    background-image: url('./assets/feedBackBg.png');
+}
+
+@media( max-width:900px ){
+    .hero {
+        background-image: url('./assets/bgheroMobile.png');
+    }
+
+    .menu {
+        background-image: url('./assets/bgMenuMobile.png');
+    }
+
+    .feedback {
+        background-image: url('./assets/feedBackBgMobile.png');
+    }
+}
