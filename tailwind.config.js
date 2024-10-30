@@ -17,12 +17,12 @@ export default {
       'desktop': {'max': '1280px'},
     },
     backgroundImage: {
-      'bgHero': "url('./public/bgHero.png')",
-      'bgHeroMobile': "url('./public/bgheroMobile.png')",
-      'bgMenu': "url('./public/menuBg.png')",
-      'bgMenuMobile': "url('./public/bgMenuMobile.png')",
-      'bgFeedBack': "url('./public/feedBackBg.png')",
-      'bgFeedBackMobile': "url('./public/feedBackBgMobile.png')",
+      'bgHero': "url('./bgHero.png')",
+      'bgHeroMobile': "url('./bgheroMobile.png')",
+      'bgMenu': "url('./menuBg.png')",
+      'bgMenuMobile': "url('./bgMenuMobile.png')",
+      'bgFeedBack': "url('./feedBackBg.png')",
+      'bgFeedBackMobile': "url('./feedBackBgMobile.png')",
     },
     extend: {
       colors: {
