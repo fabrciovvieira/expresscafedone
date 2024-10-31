@@ -70,9 +70,9 @@ const Menus = () => {
 
   return (
     <div 
-      className="w-screen h-full flex flex-col justify-center items-center bg-contain phone:bg-cover bg-no-repeat p menu"
+      className="w-screen max-w-screen-lg h-full flex flex-col justify-center items-center bg-contain phone:bg-cover bg-no-repeat p menu"
     >
-      <div className="mt-[400px] phone:mt-[200px] ">
+      <div className="mt-[470px] phone:mt-[200px] ">
         <h1 className='font-Cormorant italic font-bold text-9xl text-fontColours pb-5 phone:text-5xl'>Conheça nosso menu</h1>
       </div>
 

@@ -3,6 +3,7 @@ import { useRef } from "react";
 
 import feed1 from '../assets/feed1.png';
 import feed2 from '../assets/feed2.png';
+import feed3 from '../assets/feed3.png';
 import caneca from '../assets/caneca2.png';
 
 
@@ -20,15 +21,15 @@ const FeedBack = () => {
   return (
     <div 
       ref={ref}
-      className="w-full h-screen phone:h-full bg-lastBg bg-cover phone:bg-contain bg-no-repeat phone:flex-col feedback"
+      className="w-screen h-screen phone:h-full bg-lastBg bg-cover phone:bg-contain bg-no-repeat phone:flex-col feedback"
     >
-      <div className="phone:h-auto bg-lastBg bg-cover bg-no-repeat">
+      <div className="phone:h-auto  bg-lastBg bg-cover bg-no-repeat">
         <h1 className="font-Cormorant pt-32 text-6xl italic text-center text-fontColours phone:text-5xl phone:font-bold">
           A EXPERIÊNCIA <br />
           <span className="font-bold">NÃO MENTE...</span>
         </h1>
         
-        <div className="w-full m-auto flex justify-center items-center gap-5 phone:gap-0 h-[426px] phone:flex-col phone:h-auto phone:mt-10">
+        <div className="w-full px-32 phone:px-4 phone:pb-8 m-auto flex justify-center items-center gap-5 phone:gap-5 h-[426px] phone:flex-col phone:h-auto phone:mt-10">
           {/** Animação nas imagens */}
           <motion.div
             variants={imageVariants}
@@ -61,7 +62,7 @@ const FeedBack = () => {
             transition={{ duration: 1, delay: 0.9 }} // Delay para o terceiro feed
           >
             <img 
-              src={feed2} 
+              src={feed3} 
               alt="Feedback image 3"
               className="w-[350px] h-auto" 
             />
@@ -80,11 +81,11 @@ const FeedBack = () => {
           </motion.div>
         </div>
 
-        <h2 className="text-6xl font-Cormorant font-bold italic text-center pt-20 phone:text-5xl bg-background">
+        <h2 className="text-7xl font-Cormorant font-bold italic text-center pt-20 phone:text-5xl bg-background">
           O toque especial <br /> para o seu evento:
         </h2>
-        <div className="w-[100%] bg-background m-auto flex phone:flex-col justify-center items-center gap-5 pt-32 phone:pt-10">
-          <div className="text-center phone:text-left w-[90%]">
+        <div className="w-screen max-w-screen-lg bg-background m-auto flex phone:flex-col justify-center items-center gap-5 pb-10 pt-32 px-32 phone:px-3 phone:pt-10">
+          <div className=" phone:text-center w-[70%] phone:w-[95%]">
             <p className="font-raleway text-3xl phone:text-lg">
               Sabemos que seu evento é único, e o café tem o poder de tornar os momentos ainda mais especiais. 
               Com a <span className="font-bold">Cafeteria Express</span>, oferecemos mais do que uma bebida – 
@@ -100,7 +101,7 @@ const FeedBack = () => {
               SOLICITE SEU ORÇAMENTO AGORA
             </motion.button>
           </div>  
-          <img src={caneca} alt="Caneca do café" className="w-[600px] h-auto phone:w-[250px] phone:mt-5"/>
+          <img src={caneca} alt="Caneca do café" className="w-[500px] h-auto phone:w-[250px] phone:mt-5"/>
         </div>
       </div>
     </div>

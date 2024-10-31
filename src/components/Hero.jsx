@@ -51,7 +51,7 @@ const Hero = () => {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             transition={{ duration: 0.6, delay: index * 0.5 }} 
-            className="w-[275px] h-full p-5 flex flex-col gap-3 border border-fontColours rounded-2xl"
+            className="w-[275px] h-[380px] phone:h-full p-5 flex flex-col gap-3 border border-fontColours rounded-2xl"
             >
             <h2 className="text-4xl font-Cormorant font-bold text-center">{card.title}</h2>
             <p className="text-2xl font-raleway">{card.description}</p>

@@ -45,11 +45,11 @@ const Services = () => {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
             transition={{ duration: 1, delay: index * 0.3 }} // Aplica um delay incremental
-            className="w-[300px] h-auto text-white text-center flex flex-col gap-4 justify-center items-center"
+            className="w-[300px] h-[500px] text-white text-center flex flex-col gap-4 justify-center items-center"
           >
             <img src={card.img} alt={card.title} className="w-[100px] h-auto" />
             <h2 className="text-5xl font-bold font-Cormorant">{card.title}</h2>
-            <p className="text-3xl font-raleway font-normal leading-6">{card.text}</p>
+            <p className="text-xl font-raleway font-normal leading-2">{card.text}</p>
           </motion.div>
         ))}
       </div>
