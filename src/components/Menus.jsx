@@ -85,9 +85,9 @@ const Menus = () => {
       drag="x"
       dragConstraints={{ left: 0, right: 0 }}
       onDragEnd={handleDragEnd}
-      className="">
-        <h1 className="text-center text-3xl font-bold italic font-Cormorant pb-10">{menus[currentMenu].title}</h1>
-        <div className="flex flex-col justify-center items-center text-center">
+      className="mt-10">
+        <h1 className="text-center text-6xl font-extrabold italic font-Cormorant">{menus[currentMenu].title}</h1>
+        <div className="flex h-[400px] flex-col justify-start mt-5 items-center text-center">
             {menus[currentMenu].items.map((item, index) => (
             <div key={index} className="flex flex-col justify-center items-center text-center">
               <span className="font-bold">{item.name}</span>
@@ -99,7 +99,7 @@ const Menus = () => {
       </motion.div>
       <div className="flex justify-between items-center w-[90%] mb-10">
       <button onClick={prevMenu} className="text-2xl text-white bg-black rounded-full px-2 hover:bg-gray-700 transition duration-200">←</button>
-      <div className="flex space-x-2 mt-8">
+      <div className="flex space-x-2">
           {menus.map((_, index) => (
             <div
               key={index}

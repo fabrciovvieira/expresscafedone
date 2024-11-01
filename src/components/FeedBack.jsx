@@ -4,6 +4,7 @@ import { useRef } from "react";
 import feed1 from '../assets/feed1.png';
 import feed2 from '../assets/feed2.png';
 import feed3 from '../assets/feed3.png';
+import feed4 from '../assets/feed4.png';
 import caneca from '../assets/caneca2.png';
 
 
@@ -21,7 +22,7 @@ const FeedBack = () => {
   return (
     <div 
       ref={ref}
-      className="w-screen h-screen phone:h-full bg-lastBg bg-cover phone:bg-contain bg-no-repeat phone:flex-col feedback"
+      className="w-screen h-[133vh] phone:h-full bg-lastBg bg-cover phone:bg-contain bg-no-repeat phone:flex-col feedback"
     >
       <div className="phone:h-auto  bg-lastBg bg-cover bg-no-repeat">
         <h1 className="font-Cormorant pt-32 text-6xl italic text-center text-fontColours phone:text-5xl phone:font-bold">
@@ -29,7 +30,7 @@ const FeedBack = () => {
           <span className="font-bold">NÃO MENTE...</span>
         </h1>
         
-        <div className="w-full px-32 phone:px-4 phone:pb-8 m-auto flex justify-center items-center gap-5 phone:gap-5 h-[426px] phone:flex-col phone:h-auto phone:mt-10">
+        <div className="w-full h-screen px-32 phone:px-4 phone:pb-8 m-auto flex justify-center items-center gap-5 phone:gap-5  phone:flex-col phone:h-auto phone:mt-10">
           {/** Animação nas imagens */}
           <motion.div
             variants={imageVariants}
@@ -74,7 +75,7 @@ const FeedBack = () => {
             transition={{ duration: 1, delay: 1.1 }}
           >
             <img 
-              src={feed2} 
+              src={feed4} 
               alt="Feedback image 4"
               className="w-[350px] h-auto" 
             />

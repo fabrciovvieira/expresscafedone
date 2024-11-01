@@ -9,7 +9,7 @@ export default {
   theme: {
     screens: {
       'phone2': {'max': '380px'},
-      'phone': {'max': '900px'},
+      'phone': {'max': '600px'},
       'ipad': {'max': '768px'},
       'tablet800': {'max': '830px'},
       'tablet': {'max': '1024px'},
