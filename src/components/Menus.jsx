@@ -85,9 +85,9 @@ const Menus = () => {
       drag="x"
       dragConstraints={{ left: 0, right: 0 }}
       onDragEnd={handleDragEnd}
-      className="mt-10">
-        <h1 className="text-center text-6xl font-extrabold italic font-Cormorant">{menus[currentMenu].title}</h1>
-        <div className="flex h-[400px] flex-col justify-start mt-5 items-center text-center">
+      className="">
+        <h1 className="text-center text-6xl font-extrabold italic font-Cormorant phone:text-4xl">{menus[currentMenu].title}</h1>
+        <div className="flex h-[260px] flex-col justify-start mt-5 items-center text-center">
             {menus[currentMenu].items.map((item, index) => (
             <div key={index} className="flex flex-col justify-center items-center text-center">
               <span className="font-bold">{item.name}</span>
