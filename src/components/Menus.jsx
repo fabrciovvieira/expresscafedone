@@ -109,12 +109,14 @@ const Menus = () => {
         </div>
         <button onClick={nextMenu} className="text-2xl text-white bg-black rounded-full px-2 hover:bg-gray-700 transition duration-200">→</button>
       </div>
-      <motion.button
-        whileHover={{ scale: 1.1 }}
-        className="bg-fontColours text-[#EBDED1] px-3 py-3 text-3xl phone:text-sm font-raleway rounded-xl text-center mb-10"
-      >
-        SOLICITE SEU ORÇAMENTO AGORA
-      </motion.button>
+      <a href="https://wa.me/5548988426128">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          className="bg-fontColours text-[#EBDED1] px-3 py-3 text-3xl phone:text-sm font-raleway rounded-xl text-center mb-10"
+        >
+          SOLICITE SEU ORÇAMENTO AGORA
+        </motion.button>
+      </a>
     </div>
   );
 };

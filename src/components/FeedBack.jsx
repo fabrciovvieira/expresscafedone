@@ -3,8 +3,9 @@ import { useRef } from "react";
 
 import feed1 from '../assets/feed1.png';
 import feed2 from '../assets/feed2.png';
-import feed3 from '../assets/feed3.png';
 import feed4 from '../assets/feed4.png';
+import feed5 from '../assets/feed5.png';
+import feed6 from '../assets/feed6.png';
 import caneca from '../assets/caneca2.png';
 
 
@@ -41,7 +42,7 @@ const FeedBack = () => {
             <img 
               src={feed1} 
               alt="Feedback image 1" 
-              className="w-[350px] h-auto" 
+              className="w-[400px] h-auto" 
             />
           </motion.div>
           <motion.div
@@ -53,7 +54,7 @@ const FeedBack = () => {
             <img 
               src={feed2} 
               alt="Feedback image 2"
-              className="w-[350px] h-auto" 
+              className="w-[400px] h-auto" 
             />
           </motion.div>
           <motion.div
@@ -63,9 +64,9 @@ const FeedBack = () => {
             transition={{ duration: 1, delay: 0.9 }} // Delay para o terceiro feed
           >
             <img 
-              src={feed3} 
+              src={feed5} 
               alt="Feedback image 3"
-              className="w-[350px] h-auto" 
+              className="w-[400px] h-auto" 
             />
           </motion.div>
           <motion.div
@@ -77,7 +78,19 @@ const FeedBack = () => {
             <img 
               src={feed4} 
               alt="Feedback image 4"
-              className="w-[350px] h-auto" 
+              className="w-[400px] h-auto" 
+            />
+          </motion.div>
+          <motion.div
+            variants={imageVariants}
+            initial="hidden"
+            animate={isInView ? "visible" : "hidden"}
+            transition={{ duration: 1, delay: 1.1 }}
+          >
+            <img 
+              src={feed6} 
+              alt="Feedback image 4"
+              className="w-[400px] h-auto" 
             />
           </motion.div>
         </div>
@@ -95,12 +108,14 @@ const FeedBack = () => {
             <p className="font-raleway text-3xl pt-3 phone:text-lg">
               Entre em contato e descubra como podemos transformar seu evento com o melhor café que você já experimentou:
             </p>
-            <motion.button 
-              whileHover={{scale:1.1}}
-              className="bg-fontColours text-[#EBDED1] px-3 py-3 text-3xl phone:text-sm font-raleway rounded-xl mt-10 phone:w-full"
-            >
-              SOLICITE SEU ORÇAMENTO AGORA
-            </motion.button>
+            <a href="https://wa.me/5548988426128">
+              <motion.button
+                whileHover={{scale:1.1}}
+                className="bg-fontColours text-[#EBDED1] px-3 py-3 text-3xl phone:text-sm font-raleway rounded-xl mt-10 phone:w-full"
+              >
+                SOLICITE SEU ORÇAMENTO AGORA
+              </motion.button>
+            </a>
           </div>  
           <img src={caneca} alt="Caneca do café" className="w-[500px] h-auto phone:w-[250px] phone:mt-5"/>
         </div>

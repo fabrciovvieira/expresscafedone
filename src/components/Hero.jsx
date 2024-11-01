@@ -36,9 +36,11 @@ const Hero = () => {
 
             <p className="w-[60%] phone:w-screen phone:text-center font-raleway font-normal text-3xl phone:text-xl">Imagine seus momentos especiais sendo enriquecidos com o sabor inconfundível do <span className="font-bold">melhor café</span>.
             Na Cafeteria Express, trazemos uma <span className="font-bold">experiência sensorial</span> única para seu evento, com bebidas de qualidade superior e uma apresentação impecável.</p>
-            <motion.button 
-            whileHover={{scale:1.1}}
-            className="bg-fontColours text-[#EBDED1] px-3 py-3 text-3xl phone:text-sm font-raleway rounded-xl mt-10 phone:mx-auto">SOLICITE SEU ORÇAMENTO AGORA</motion.button>  
+            <a href="https://wa.me/5548988426128">
+              <motion.button
+              whileHover={{scale:1.1}}
+              className="bg-fontColours text-[#EBDED1] px-3 py-3 text-3xl phone:text-sm font-raleway rounded-xl mt-10 phone:mx-auto">SOLICITE SEU ORÇAMENTO AGORA</motion.button>
+            </a> 
         </div>
 
         <div 
