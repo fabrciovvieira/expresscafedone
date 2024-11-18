@@ -18,7 +18,7 @@ const Services = () => {
   return (
     <div className="bg-fontColours pb-14 flex flex-col justify-center">
       <div className="mb-14">
-        <h1 className="text-background text-8xl text-center font-Cormorant p-6 font-bold phone:text-6xl">Nosso Serviço Completo</h1>
+        <h1 className="text-background text-8xl text-center font-Cormorant pt-14 p-6 font-bold phone:text-6xl">Nosso Serviço Completo</h1>
       </div>
 
       <div ref={ref} className="w-screen flex phone:flex-col gap-32 justify-center items-center m-auto">
