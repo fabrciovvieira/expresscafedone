@@ -31,7 +31,7 @@ const Hero = () => {
 
         <div className='w-[100%] pl-36 phone:pl-0 phone:flex phone:flex-col phone:justify-center phone:items-center'>
             <h1 className="font-Cormorant text-7xl font-light pb-10 phone:text-3xl phone:text-center">Um toque de elegância <br />
-                <span className="font-bold text-8xl phone:text-5xl">em cada evento.</span>
+                <span className="font-bold text-8xl phone:text-5xl italic">em cada evento.</span>
             </h1>
 
             <p className="w-[60%] phone:w-screen phone:text-center font-raleway font-normal text-3xl phone:text-xl">Imagine seus momentos especiais sendo enriquecidos com o sabor inconfundível do <span className="font-bold">melhor café</span>.
