@@ -54,14 +54,14 @@ const Services = () => {
         ))}
       </div>
 
-      <a href="https://wa.me/5548988426128">
+      <a href="https://wa.me/5548988426128" className="w-full flex justify-center">
         <motion.button
           whileHover={{ scale: 1.1 }}
           className="m-auto bg-background text-fontColours px-3 py-3 text-3xl font-raleway rounded-xl mt-16 phone:text-sm phone:w-[70%]"
         >
           SOLICITE SEU ORÇAMENTO AGORA
         </motion.button>
-      </a>
+        </a>
     </div>
   );
 };
