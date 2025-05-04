@@ -54,12 +54,14 @@ const Services = () => {
         ))}
       </div>
 
-      <motion.button
-        whileHover={{ scale: 1.1 }}
-        className="m-auto bg-background text-fontColours px-3 py-3 text-3xl font-raleway rounded-xl mt-16 phone:text-sm phone:w-[70%]"
-      >
-        SOLICITE SEU ORÇAMENTO AGORA
-      </motion.button>
+      <a href="https://wa.me/5548988426128">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          className="m-auto bg-background text-fontColours px-3 py-3 text-3xl font-raleway rounded-xl mt-16 phone:text-sm phone:w-[70%]"
+        >
+          SOLICITE SEU ORÇAMENTO AGORA
+        </motion.button>
+      </a>
     </div>
   );
 };
